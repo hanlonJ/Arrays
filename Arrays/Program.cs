@@ -1,7 +1,7 @@
 ﻿/* Author: Jared Hanlon
    Date: 1/24/2019
    Comments: This C# console application demonstrates the use of
-             Arrays after getting input from users.
+             Arrays and iterates through provided elements with a Foreach Loop.
 */
 
 using System;
@@ -35,7 +35,7 @@ namespace Arrays
                 Console.WriteLine("Press any key to exit the program...");
                 Console.ReadKey(true);
             } // End of try
-             // If a user does not enter an integer, display a message
+             // Here is a catch statement in case there is a issue with iteration of the array
             catch
             {
                 Console.WriteLine("I'm sorry Dave, I'm afraid I can't do that... ");
